@@ -1,0 +1,14 @@
+void clear_screen();
+void reset_color();
+void set_color(char *option, char *color);
+void get_board_revision();
+void get_board_model();
+void get_mac_address();
+void get_arm_memory();
+void get_virtual_screen_size();
+void framebf_init();
+int check_int(char *str);
+void set_screen_size_without_option(int width, int height);
+void set_screen_size_with_option(char *str, int width, int height);
+void handle_mbox_command();
+void draw_pattern();
